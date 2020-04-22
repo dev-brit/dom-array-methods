@@ -36,10 +36,11 @@ button {
   border-radius   : 5px;
   display         : block;
   width           : 100%;
-  padding         : 10px;
+  padding         : 15px;
   margin-bottom   : 20px;
   font-weight     : bold;
   font-size       : 14px;
+  text-transform  : uppercase;
 }
 
 main {
@@ -49,8 +50,10 @@ main {
 
 h1,
 h2,
-h3 {
-  color: #fff;
+h3,
+strong {
+  color      : #fff;
+  font-weight: 500;
 }
 
 h2 {
@@ -63,13 +66,12 @@ h2 {
 }
 
 h3 {
-  background-color: #fff;
-  border-bottom   : 1px solid #eee;
-  padding         : 10px;
-  display         : flex;
-  justify-content : space-between;
-  font-weight     : 300;
-  margin          : 20px 0 0;
+  border-bottom  : 1px solid #eee;
+  padding        : 10px;
+  display        : flex;
+  justify-content: space-between;
+  font-weight    : 500;
+  margin         : 20px 0 0;
 }
 
 .person {
